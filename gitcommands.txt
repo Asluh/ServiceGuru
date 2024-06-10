@@ -1,13 +1,15 @@
-git clone [remote repository exact copy local repository]
+git init [initializing git repository]
 
-git push [local repository changes remote repository]
-
-git pull [remote repository changes local repository]
+git status [list all untracked files]
 
 git add -A [adding all chnages to staging area]
 
 git commit -m "message" [stage files to local repository]
 
-git init [initializing git repository]
+git remote add service https://github.com/Asluh/ServiceGuru.git
 
-git status [list all untracked files]
+git push remotename branch [local repository changes remote repository]
+
+git pull [remote repository changes local repository]
+
+git clone [remote repository exact copy local repository]
