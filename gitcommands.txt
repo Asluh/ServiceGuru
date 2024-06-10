@@ -1,0 +1,13 @@
+git clone [remote repository exact copy local repository]
+
+git push [local repository changes remote repository]
+
+git pull [remote repository changes local repository]
+
+git add -A [adding all chnages to staging area]
+
+git commit -m "message" [stage files to local repository]
+
+git init [initializing git repository]
+
+git status [list all untracked files]
