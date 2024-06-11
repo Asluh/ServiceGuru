@@ -56,3 +56,22 @@ attributes : {name,email,phone,vehicle_number,running_km,technician,status,creat
 
     authentication : Tokenauthentication
 
+
+7)API for adding a work
+
+    url : http://127.0.0.1:8000/api/customer/{id}/add_work/
+
+    method : POST
+
+    body :{title,description,amount}
+
+
+    =================================OR========================
+
+    API for adding work  
+    
+    url : http://127.0.0.1:8000/api/customer/{id}/work/
+
+    method : POST
+
+    body :{title,description,amount}
