@@ -8,6 +8,8 @@ git commit -m "message" [stage files to local repository]
 
 git remote add service https://github.com/Asluh/ServiceGuru.git
 
+git remote -v [list all remotes]
+
 git push remotename branch [local repository changes remote repository]
 
 git pull [remote repository changes local repository]
